@@ -1,0 +1,10 @@
+{
+  "name": "otjang-typescript",
+  "version": "1.0.0",
+  "description": "mobile app managing clothes",
+  "main": "index.js",
+  "repository": "https://github.com/gyeongwon1275/otjang-typescript.git",
+  "author": "gyeongwon1275 <rlaruddnjs28@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
