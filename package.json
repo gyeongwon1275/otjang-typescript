@@ -1,10 +1,35 @@
 {
-  "name": "otjang-typescript",
-  "version": "1.0.0",
-  "description": "mobile app managing clothes",
-  "main": "index.js",
-  "repository": "https://github.com/gyeongwon1275/otjang-typescript.git",
-  "author": "gyeongwon1275 <rlaruddnjs28@gmail.com>",
-  "license": "MIT",
-  "private": false
+  "name": "otjang",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-native": "^0.64.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@testing-library/react-native": "^7.2.0",
+    "@types/jest": "^26.0.23",
+    "@types/react": "^17.0.11",
+    "@types/react-native": "^0.64.10",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^26.6.3",
+    "eslint": "7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "react-devtools": "^4.13.5",
+    "react-test-renderer": "^17.0.2",
+    "typescript": "^4.3.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
 }
